@@ -13,6 +13,8 @@ public static void main(String[] args) {
     System.out.println("Enter number 2");
     y = lector.nextInt();
 
+    lector.close();
+
     sum = x+y;
     sub = x-y;
     mult = x*y;
