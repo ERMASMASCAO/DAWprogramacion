@@ -1,11 +1,11 @@
 import java.util.Scanner;
-
-public class Ejemplo12 {
+public class Ejemplo13 {
     public static void main(String [] args ) {
 
         //Declaración de variables
         Scanner lector = new Scanner(System.in);
         double x,y;
+        int opcion;
 
         //Empieza el programa
         System.out.println("x: ");
@@ -14,13 +14,20 @@ public class Ejemplo12 {
         System.out.println("y: ");
         y = lector.nextDouble();
 
+        System.out.println("Opción ascendente 1 o descendente 2:");
+        opcion = lector.nextInt();
+
         lector.close();
 
-        if (x <= y) {
-            System.out.println(y);
-        }
-        else{
-            System.out.println(x);
+        if (opcion == 1){
+            //Imprimir en orden ascendente
+            if ( x >= y){
+                System.out.println();
+                
+            }
+            
+        }else if (opcion == 2) {
+            //Imprimir en orden descendente
         }
     }
 }
