@@ -15,6 +15,7 @@ public class Ejemplo17 {
         lector.close();
         
         switch (mes){
+        // TODOS ESTOS CASOS QUIERE DECIR QUE TIENEN 31 DÍAS
             case 1:
             case 3:
             case 5:
@@ -23,9 +24,11 @@ public class Ejemplo17 {
             case 12:
                 System.out.println("Este mes tiene 31 días  :  ");
                 break;
+        // TODOS ESTOS CASOS QUIERE DECIR QUE TIENEN 28 DÍAS
             case 2:
                 System.out.println("Este mes tiene 28 días  :  ");
                 break;
+        // TODOS ESTOS CASOS QUIERE DECIR QUE TIENEN 30 DÍAS
             case 4:
             case 6:
             case 9:
