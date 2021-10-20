@@ -23,14 +23,15 @@ import java.util.Scanner;
         Scanner miScanner = new Scanner(System.in);
         System.out.println("Dime la operación: ");
         cadena = miScanner.next();
+        miScanner.close();
 
         char letra = cadena.charAt(0);
 
         if (letra == '+'){
             System.out.println("sum: " + sum);
-        }
+        
         }else if (letra == '-'){
-            System.out.println("sub: " + sub)
+            System.out.println("sub: " + sub);
         }else if (letra == '-'){
             System.out.println("mult: " + mult);
         }else if (letra == '*'){
@@ -39,3 +40,4 @@ import java.util.Scanner;
         lector.close();
         }
     }
+}
