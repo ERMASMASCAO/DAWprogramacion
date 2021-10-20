@@ -5,7 +5,7 @@ import java.util.Scanner;
         public static void main(String argv[]){
             Scanner lector = new Scanner(System.in);
             int x,y;
-            int sum, sub, mult, div;
+            int sum,sub,mult,div;
 
         //EMPIEZA EL PROGRAMA
             System.out.println("Introduce el primer numero");
@@ -23,19 +23,22 @@ import java.util.Scanner;
         Scanner miScanner = new Scanner(System.in);
         System.out.println("Dime la operación: ");
         cadena = miScanner.next();
+        lector.close();
+        miScanner.close();
 
         char letra = cadena.charAt(0);
 
         if (letra == '+'){
             System.out.println("sum: " + sum);
-        }
+        
         }else if (letra == '-'){
-            System.out.println("sub: " + sub)
-        }else if (letra == '-'){
-            System.out.println("mult: " + mult);
+            System.out.println("sub: " + sub);
         }else if (letra == '*'){
+            System.out.println("mult: " + mult);
+        }else if (letra == '/'){
             System.out.println("div: " + div);
 
-        lector.close();
+        
         }
     }
+}

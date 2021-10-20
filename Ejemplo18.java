@@ -20,6 +20,7 @@ public class Ejemplo18 {
 
         System.out.println("Introduce los segundos");
         segundos = lector.nextInt();
+        lector.close();
 
         //Si segundos llega a 60 que se ponga a 0 y aumente 1 minuto
         segundos = segundos + 1;
