@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Ejemplo24b",
+            "request": "launch",
+            "mainClass": "Ejemplo24b",
+            "projectName": "DAWprogramacion_41cb719f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejemplo24",
+            "request": "launch",
+            "mainClass": "Ejemplo24",
+            "projectName": "DAWprogramacion_41cb719f"
+        },
+        {
+            "type": "java",
             "name": "Launch Ejemplo23",
             "request": "launch",
             "mainClass": "Ejemplo23",
