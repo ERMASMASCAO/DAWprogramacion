@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Mates",
+            "request": "launch",
+            "mainClass": "Tema2.Mates",
+            "projectName": "DAWprogramacion_41cb719f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejemplo5",
+            "request": "launch",
+            "mainClass": "Ejemplo5",
+            "projectName": "DAWprogramacion_41cb719f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArgumentosSuma",
+            "request": "launch",
+            "mainClass": "Tema2.ArgumentosSuma",
+            "projectName": "DAWprogramacion_41cb719f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArgumentosMain",
+            "request": "launch",
+            "mainClass": "Tema2.ArgumentosMain",
+            "projectName": "DAWprogramacion_41cb719f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejemplo26",
+            "request": "launch",
+            "mainClass": "Ejemplo26",
+            "projectName": "DAWprogramacion_41cb719f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArgumentosMain",
+            "request": "launch",
+            "mainClass": "ArgumentosMain",
+            "projectName": "DAWprogramacion_41cb719f"
+        },
+        {
+            "type": "java",
             "name": "Launch Ejemplo24b",
             "request": "launch",
             "mainClass": "Ejemplo24b",
