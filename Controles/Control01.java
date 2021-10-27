@@ -1,3 +1,4 @@
+package Controles;
 import java.util.Scanner;
 public class Control01 {
 
@@ -14,3 +15,5 @@ public class Control01 {
     //A continuación el programa debe pedir la longitud del lado del polígono (con decimales): 
         squareArea = side * side;
 		System.out.println("Introduce la longitud del lado del polígono");
+    }
+}
