@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Ejemplo33",
+            "request": "launch",
+            "mainClass": "Ejemplo33",
+            "projectName": "DAWprogramacion_41cb719f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejemplo32",
+            "request": "launch",
+            "mainClass": "Ejemplo32",
+            "projectName": "DAWprogramacion_41cb719f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejemplo31",
+            "request": "launch",
+            "mainClass": "Ejemplo31",
+            "projectName": "DAWprogramacion_41cb719f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejemplo29",
+            "request": "launch",
+            "mainClass": "Ejemplo29",
+            "projectName": "DAWprogramacion_41cb719f"
+        },
+        {
+            "type": "java",
             "name": "Launch E03",
             "request": "launch",
             "mainClass": "Controles.E03",

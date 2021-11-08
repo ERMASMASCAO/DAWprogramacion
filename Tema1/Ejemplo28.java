@@ -16,6 +16,7 @@ public static void main(String [] args ){
     for (I = 1; I <= numeroIntroducido; I++)
     {
         if ((numeroIntroducido % I ) == 0)
+        lector.close();
         {
         contador++;
         }
@@ -25,6 +26,7 @@ public static void main(String [] args ){
         System.out.println("Es un numero primo");
     }else{
         System.out.println("No es un numero primo");
+            lector.close();
     }
 }
 }
