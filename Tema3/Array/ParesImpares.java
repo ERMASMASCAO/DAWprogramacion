@@ -1,4 +1,4 @@
-package Tema3;
+package Tema3.Array;
 
 public class ParesImpares {
     
