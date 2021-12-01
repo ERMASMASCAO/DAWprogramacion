@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch SumaIgual",
+            "request": "launch",
+            "mainClass": "Tema3.Array.SumaIgual",
+            "projectName": "DAWprogramacion_41cb719f"
+        },
+        {
+            "type": "java",
             "name": "Launch Ejemplo33",
             "request": "launch",
             "mainClass": "Ejemplo33",
