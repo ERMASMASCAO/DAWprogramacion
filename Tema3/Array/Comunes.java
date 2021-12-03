@@ -1,6 +1,5 @@
 package Tema3.Array;
 import java.util.Arrays;
-import Tema3.Array.Utilidades;
 /*
  * Escribir un programa Java para encontrar los elementos comunes entre dos arrays de enteros.
  */
