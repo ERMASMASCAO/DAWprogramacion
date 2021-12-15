@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Concat",
+            "request": "launch",
+            "mainClass": "Tema3.Strings.Concat",
+            "projectName": "DAWprogramacion_41cb719f"
+        },
+        {
+            "type": "java",
             "name": "Launch CompararIgnoreCase",
             "request": "launch",
             "mainClass": "Tema3.Strings.CompararIgnoreCase",

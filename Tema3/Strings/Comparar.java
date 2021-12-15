@@ -12,7 +12,14 @@ public class Comparar {
 		
 		String cadena1 = Utilidades.leerCadena("Introduce cadena1");
 		String cadena2 = Utilidades.leerCadena("Introduce cadena2");
-		int resultado = comparar(cadena1, cadena2);
+
+		/*se le define que el resultado al empezar tiene valor 0 para evitar problemas en el programa, pero también hay diferentes maneras
+		por ejemplo la siguiente:
+		--> int resultado = comparar (cadena1, cadena2);
+		*/
+		
+		int resultado = 0;
+		resultado = comparar(cadena1, cadena2);
 		
 		if (0 == resultado){
 			System.out.println("Las cadenas son iguales");
