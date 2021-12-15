@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch CompararIgnoreCase",
+            "request": "launch",
+            "mainClass": "Tema3.Strings.CompararIgnoreCase",
+            "projectName": "DAWprogramacion_41cb719f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Comparar",
+            "request": "launch",
+            "mainClass": "Tema3.Strings.Comparar",
+            "projectName": "DAWprogramacion_41cb719f"
+        },
+        {
+            "type": "java",
             "name": "Launch ParesImpares",
             "request": "launch",
             "mainClass": "Tema3.ParesImpares",
