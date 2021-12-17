@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch IndexOf",
+            "request": "launch",
+            "mainClass": "Tema3.Strings.IndexOf",
+            "projectName": "DAWprogramacion_41cb719f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Reemplazar",
+            "request": "launch",
+            "mainClass": "Tema3.Strings.Reemplazar",
+            "projectName": "DAWprogramacion_41cb719f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ends",
+            "request": "launch",
+            "mainClass": "Tema3.Strings.Ends",
+            "projectName": "DAWprogramacion_41cb719f"
+        },
+        {
+            "type": "java",
             "name": "Launch Contains",
             "request": "launch",
             "mainClass": "Tema3.Strings.Contains",
