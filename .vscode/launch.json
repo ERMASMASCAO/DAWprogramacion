@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch SubString",
+            "request": "launch",
+            "mainClass": "Tema3.Strings.SubString",
+            "projectName": "DAWprogramacion_41cb719f"
+        },
+        {
+            "type": "java",
             "name": "Launch IndexOf",
             "request": "launch",
             "mainClass": "Tema3.Strings.IndexOf",
