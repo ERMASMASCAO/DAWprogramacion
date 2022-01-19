@@ -6,6 +6,7 @@ package Tema3.Strings;
 
 public class Longitud {
 
-    public static void contadorDeLogingitudDePalabras(String) {
+    public static void contadorDeLogingitudDePalabras(String longitud) {
         
+    }
 }

@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch sillaObjetoTest",
+            "request": "launch",
+            "mainClass": "Tema4.Objetos.sillaObjetoTest",
+            "projectName": "DAWprogramacion_41cb719f"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlumnoTest",
+            "request": "launch",
+            "mainClass": "Tema3.Array.Tema4.Objetos.AlumnoTest",
+            "projectName": "DAWprogramacion_41cb719f"
+        },
+        {
+            "type": "java",
             "name": "Launch SubString",
             "request": "launch",
             "mainClass": "Tema3.Strings.SubString",

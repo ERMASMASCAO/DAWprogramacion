@@ -11,7 +11,6 @@ public class Control01 {
     //Si el número introducido es 3 o 4 el programa continua, en caso contrario termina.
         float x = 3,4;
         Scanner lector = new Scanner(System.in);
-        if
     //A continuación el programa debe pedir la longitud del lado del polígono (con decimales): 
         squareArea = side * side;
 		System.out.println("Introduce la longitud del lado del polígono");
