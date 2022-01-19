@@ -12,6 +12,8 @@ class Silla{
     // Zona de atributos de las sillas
 
     private static int totalSillas = 0;     //Cantidad de sillas.
+    
+
 
     //Zona de atributos de los objetos.
 
