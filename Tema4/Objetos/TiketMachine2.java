@@ -1,4 +1,3 @@
-package Tema4.Objetos;
 
 /**
  * TicketMachine models a ticket machine that issues
@@ -26,7 +25,7 @@ public class TiketMachine2
     /**
      * Create a machine that issues tickets of the given price.
      */
-    public TicketMachine(int cost)
+    public TicketMachine2(int cost)
     {
         price = cost;
         balance = 0;

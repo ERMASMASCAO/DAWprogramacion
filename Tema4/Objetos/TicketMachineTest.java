@@ -1,4 +1,3 @@
-package Tema4.Objetos;
 
 public class TicketMachineTest {
     public static void main(String[] args) {

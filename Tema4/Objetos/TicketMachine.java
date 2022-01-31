@@ -1,4 +1,3 @@
-package Tema4.Objetos;
 /**
  * TicketMachine models a naive ticket machine that issues
  * flat-fare tickets.

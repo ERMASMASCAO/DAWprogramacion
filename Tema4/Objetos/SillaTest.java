@@ -1,4 +1,3 @@
-package Tema4.Objetos;
 import java.awt.Point;
 
 public class SillaTest {

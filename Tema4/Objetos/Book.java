@@ -1,4 +1,6 @@
-package Tema4.Objetos;
+
+import javax.lang.model.util.ElementKindVisitor8;
+
 /**
  * A class that maintains information on a book.
  * This might form part of a larger application such
@@ -21,12 +23,11 @@ class Book
      * Set the author and title fields when this object
      * is constructed.
      */
-    public Book(String bookAuthor, String bookTitle, int bookPages, String refNumber, int bookBorrowed, boolean bookCourseText)
+    public Book(String bookAuthor, String bookTitle, int bookPages, int bookBorrowed, boolean bookCourseText)
     {
         author = bookAuthor;
         title = bookTitle;
         pages = bookPages;
-        reference = refNumber;
         borrowed = bookBorrowed;
         courseText = bookCourseText;
     }
@@ -56,8 +57,11 @@ class Book
     }
     //Crea un mutador de refNumber
     public void setRefNumber(String ref){
-        reference = ref;
-    }
+        if (ref.length() > 3)
+        }reference = ref;
+        }else{
+            System.out.println("Error, no se ha podido modificar el campo")
+        }
     //Crea un mutador de borrowed llamado borrow que incremente en 1 cada vez que es llamado y incluye un selector. getBorrowed que
     //devuelva como resultado el valor de borrow.
     public void borrow() {

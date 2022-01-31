@@ -1,4 +1,3 @@
-package Tema4.Objetos;
 
         public class PajaroTest {
             public static void main(String[] args) {

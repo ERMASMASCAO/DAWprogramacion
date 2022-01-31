@@ -1,4 +1,4 @@
-package Tema4.Objetos;
+
 /*
 Crea una clase alumno con un identificador nombre y una clase 1CFSJ <----"ejemplo" se pueden crear alumnos con nombre e ID "Identificador"
 o con las 3 cosas. También hay crear un metodo propio de los objetos llamado (PreguntarDuda) que tiene que imprimir "Levanta la mano"
@@ -12,7 +12,7 @@ otro metodo de clase que se llama imprimir informe de alumnos al que se le pasa 
 
 class Alumno{
     //Zona de atributos de clase
-
+    
     private static int totalAlumnos = 0;
 
     //Zona de atributos de objetos

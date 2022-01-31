@@ -1,4 +1,3 @@
-package Tema4.Objetos;
 import java.awt.Point;
 
 /*crea una clase Silla que no tiene main ni nada,
