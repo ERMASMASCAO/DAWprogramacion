@@ -54,7 +54,7 @@ public class MailServer
                 it.remove();
                 return item;
             }
-        }
+    }
         return null;
     }
 
