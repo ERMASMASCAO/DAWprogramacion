@@ -65,4 +65,8 @@ public class MailClient
 
         
     }
+    public void forwardLastMailItem(String forwardTo)
+    {
+        
+    }
 }
