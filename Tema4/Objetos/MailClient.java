@@ -57,16 +57,26 @@ public class MailClient
         String [] nombres = to.split(";");
         
         for (String nombre: nombres){
-            System.out.println(nombre);
-
             MailItem item = new MailItem(user, nombre, subject, message);
             server.post(item);
+            System.out.println("Correo enviado a " + nombre);
         }
 
         
     }
     public void forwardLastMailItem(String forwardTo)
     {
-        
+        MailItem item = server.getNextMailItem(who);
+        if(item == null){
+            System.out.println("No new mail to forward.");
+        }
+        else{
+            item.print();
+            MailItem nuevo = new MailItem(item.getFrom(),
+                                forwardTo,
+                                item.getSubject(),
+                                item.getMessage() );     
+            server.post(nuevo);  
+        }
     }
 }
