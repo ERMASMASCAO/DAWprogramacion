@@ -7,7 +7,7 @@ que te deje saber cuantos teclados se han creado.Crea una classe ordenador con l
 "sobre mesa o portatil",color,y teclado de la clase anterior) crea los getters y setters pertinentes teniendo en cuenta que solo el teclado puede ser 
 modificado después de crear ordenador.para las dos clases debes crear dos constructores uno sin parametros y otro en el que si que se especifican
 unos valores en concreto. EXTRA --> en la clase ordenador crear un metodo que se llame conectar y que recibe por parametro otro ordenador de manera
-que un ordenador puede estar conectado a otro.
+que un ordenador puede estar conectado a otro..
 */
 
 public class Teclado{
