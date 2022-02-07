@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch tecladoTest",
+            "request": "launch",
+            "mainClass": "Controles.Control03.tecladoTest",
+            "projectName": "DAWprogramacion-1_634d2902"
+        },
+        {
+            "type": "java",
             "name": "Launch sillaObjetoTest",
             "request": "launch",
             "mainClass": "Tema4.Objetos.sillaObjetoTest",
