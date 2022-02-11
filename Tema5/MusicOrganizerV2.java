@@ -12,7 +12,7 @@ public class MusicOrganizerV2
     // An ArrayList for storing the file names of music files.
     private ArrayList<String> files;
     // A player for the music files.
-    private MusicPlayer player;
+    private MusicPlayerV3 player;
         
     /**
      * Create a MusicOrganizer
@@ -20,7 +20,7 @@ public class MusicOrganizerV2
     public MusicOrganizerV2()
     {
         files = new ArrayList<>();
-        player = new MusicPlayer();
+        player = new MusicPlayerV3();
     }
     
     /**
