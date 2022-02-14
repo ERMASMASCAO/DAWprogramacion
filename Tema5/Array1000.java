@@ -1,3 +1,7 @@
+/*
+*   Crea un array de 1000 posiciones. En los pares han de paarecer en las posiciones los múltiplos de 3 y en las impares de 7. Después *   has de imprimir el contenido del array cuyas posiciones son múltiplos de 13 empezando por 13.
+*/
+
 public class Array1000 {
     public static void main(String[] args) {
 
