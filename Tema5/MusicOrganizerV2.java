@@ -1,4 +1,3 @@
-package Tema5;
 import java.util.ArrayList;
 /**
  * A class to hold details of audio files.
@@ -12,7 +11,7 @@ public class MusicOrganizerV2
     // An ArrayList for storing the file names of music files.
     private ArrayList<String> files;
     // A player for the music files.
-    private MusicPlayerV3 player;
+    private MusicPlayer player;
         
     /**
      * Create a MusicOrganizer
@@ -20,7 +19,7 @@ public class MusicOrganizerV2
     public MusicOrganizerV2()
     {
         files = new ArrayList<>();
-        player = new MusicPlayerV3();
+        player = new MusicPlayer();
     }
     
     /**

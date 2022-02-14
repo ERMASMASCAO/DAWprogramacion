@@ -1,5 +1,3 @@
-package Tema5;
-
 import java.util.ArrayList;
 
 /**
