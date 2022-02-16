@@ -1,0 +1,34 @@
+Proyecto Network
+
+El proyecto network implementa un prototipo de una pequeña parte de una aplicación de red social. La parte en la que nos centraremos es la fuente de noticias, la lista de mensajes que aparecerá en pantalla cuando el usuario abra la página principal de la red social.
+
+Aquí empezaremos de forma simple y poco ambiciosa, con la idea de ampliar y mejorar la aplicación más adelante. Inicialmente, sólo tenemos dos tipos de publicaciones en nuestra fuente de noticias: publicaciones de texto (que denominaremos simplemente mensajes) y publicaciones fotográficas compuestas por una fotografía y un título.
+
+La parte de la aplicación de la que haremos un prototipo es el motor que almacena y visualiza estas publicaciones. La funcionalidad que queremos proporcionar con este prototipo debe incluir al menos lo siguiente:
+
+Debe permitirnos crear publicaciones de texto y fotográficas
+
+Las publicaciones de texto están compuestas por un mensaje de longitud arbitraria. Las publicaciones fotográficas están d y un título. Con cada publicación se almacenan algunos detalles adicionales.
+
+Ha de proporcionarse una función de búsqueda que nos permita localizar, por ejemplo, todas las publicaciones de un cierto usuario o todas las fotografías dentro de un cierto intervalo de fechas.
+
+Debe permitir mostrar listas de publicaciones, como la lista de las publicaciones más recientes o una lista de todas las publicaciones de un cierto usuario.
+
+Ha de hacer posible eliminar información.
+
+Los detalles que queremos almacenar para cada publicación de mensaje son:
+
+    El nombre de usuario del autor.
+    El texto del mensaje.
+    Una marca temporal (instante de la publicación)
+    El número de personas a las que les ha gustado la publicación.
+    Una lista de los comentarios que otros usuarios han hecho acerca de esta publicación.
+
+Los detalles que queremos almacenar para cada publicación fotográfica son:
+
+    El nombre del usuario del autor
+    El nombre del archivo de imagen que hay que visualizar.
+    El título de la fotografía (una línea de texto).
+    Una marca temporal (instante de la publicación)
+    El número de personas a las que les ha gustado la publicación.
+    Una lista de los comentarios que otros usuarios han hecho acerca de esta publicación.
