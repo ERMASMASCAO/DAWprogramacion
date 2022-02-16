@@ -73,11 +73,11 @@ public class Track
      * Return details of the track: artist, title and file name.
      * @return The track's details.
      */
-    public String getDetails()
+    /*public String getDetails()
     {                                                       // 2º se a añadido album para mostrar de que album es
         return artist + ": " + title + "  (file: " + filename + "  " + album + ")";
     }
-    
+    */
     /**
      * Set details of the track.
      * @param artist The track's artist.
@@ -105,5 +105,10 @@ public class Track
     // 3º
     public void setAlbum(String album) {
         this.album = album;
+    }
+    // 5º
+    public String toString(){
+        return artist + ": " + title + "  (file: " + filename + "  " + album + ")";
+
     }
 }
