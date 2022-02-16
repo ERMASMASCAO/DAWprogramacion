@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Ejemplo3",
+            "request": "launch",
+            "mainClass": "Ejemplo3",
+            "projectName": "DAWprogramacion_a27b07ab"
+        },
+        {
+            "type": "java",
+            "name": "Launch SillaTest",
+            "request": "launch",
+            "mainClass": "Tema4.Objetos.SillaTest",
+            "projectName": "DAWprogramacion_a27b07ab"
+        },
+        {
+            "type": "java",
             "name": "Launch tecladoTest",
             "request": "launch",
             "mainClass": "Controles.Control03.tecladoTest",
