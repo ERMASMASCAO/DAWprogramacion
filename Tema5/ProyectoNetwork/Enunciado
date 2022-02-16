@@ -8,7 +8,7 @@ La parte de la aplicación de la que haremos un prototipo es el motor que almace
 
 Debe permitirnos crear publicaciones de texto y fotográficas
 
-Las publicaciones de texto están compuestas por un mensaje de longitud arbitraria. Las publicaciones fotográficas están d y un título. Con cada publicación se almacenan algunos detalles adicionales.
+Las publicaciones de texto están compuestas por un mensaje de longitud arbitraria. Las publicaciones fotográficas están compuestas por una imagen y un título.Con cada publicación se almacenan algunos detalles adicionales.
 
 Ha de proporcionarse una función de búsqueda que nos permita localizar, por ejemplo, todas las publicaciones de un cierto usuario o todas las fotografías dentro de un cierto intervalo de fechas.
 
