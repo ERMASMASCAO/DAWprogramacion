@@ -1,4 +1,3 @@
-package Tema3.Strings;
 
 /*  Escribe un programa que devuelva la posición de una cadena en otra
     Funciones a utilizar
