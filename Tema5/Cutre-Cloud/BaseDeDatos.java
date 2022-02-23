@@ -3,17 +3,19 @@ import java.util.ArrayList;
 public class BaseDeDatos {
 
     //Usuario
-    ArrayList<Integer> idUsuario = new ArrayList();
-    ArrayList<String> emailUsuario = new ArrayList();
-    ArrayList<String> passwordUsuario = new ArrayList();
+    ArrayList<Usuario> usuarios = new ArrayList<>();
+
+    public void añadirUsuario(Usuario usuario1){
+        usuarios.add(usuario1);
+    }
 
     //Media:
-    ArrayList<String> nombreMedia = new ArrayList();
-    ArrayList<Integer> idMedia = new ArrayList();
-    ArrayList<String> contenidoMedia = new ArrayList();
-    ArrayList<String> usuarioMedia = new ArrayList();
-    ArrayList<String> tipoMedia = new ArrayList();
-    
+    ArrayList<Media> medias = new ArrayList<>();
+
+    public void añadirMedias(Media media1){
+        medias.add(media1);
+    }
+
 
 
 
