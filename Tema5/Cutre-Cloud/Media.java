@@ -13,6 +13,7 @@ public class Media {
     public static ArrayList<Media> list = new ArrayList<>();
     private static int idGenerator = 0;
 
+    //Constructor
     public Media (Integer id, String nombre, String contenido, MediaType tipo, int usuario){
         this.id = idGenerator++;
         this.nombre = nombre;
@@ -20,7 +21,27 @@ public class Media {
         this.tipo = tipo;
         this.usuario = usuario;
         list.add(this);
+
+        if (this.esNombreDisponible(nombre)){
+            this.nombre = nombre;
+            list.add(this);
+        }else{
+            this.nombre = "Nombre duplicado: " + nombre;
+        }
+        list.add(this);
     }
+
+    private boolean esNombreDisponible(String nombre){
+        boolean resultado = true;
+
+        for (Media media : list){
+            if(nombre.equals(media.getNombre())){
+                resultado = false;
+                break;
+        }
+    }
+        return resultado;
+}
     
     public Integer getId() {
         return id;
@@ -56,5 +77,8 @@ public class Media {
 
     public void setUsuario(int usuario) {
         this.usuario = usuario;
+    }
+
+    public void eliminarMedia (){
     }
 }
