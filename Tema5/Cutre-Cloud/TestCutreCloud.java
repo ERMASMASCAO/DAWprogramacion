@@ -6,7 +6,7 @@ public class TestCutreCloud {
         Usuario u3 = new Usuario("juanratkid@cutrecloud.com", "456");
         Usuario u4 = new Usuario("raul@cutreclou.com", "sdlfkj");
 
-        
+        Media m1 = new Media(3, "song.mp3", "trukutruku", MediaType.audio, u1);
         System.out.println(u1.getEmail());
     }
 }   
