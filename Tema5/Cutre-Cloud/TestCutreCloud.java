@@ -8,5 +8,6 @@ public class TestCutreCloud {
 
         Media m1 = new Media(3, "song.mp3", "trukutruku", MediaType.audio, u1);
         System.out.println(u1.getEmail());
+
     }
 }   

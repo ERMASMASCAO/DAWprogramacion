@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class Media {
 
@@ -74,11 +75,28 @@ public class Media {
     public int getUsuario() {
         return usuario;
     }
-
+    
     public void setUsuario(int usuario) {
         this.usuario = usuario;
     }
 
-    public void eliminarMedia (){
+    public void eliminarUnMedia(String nombre){
+        for (Media item : list){
+            item.nombre.equals(nombre);
+            if (item.nombre.equals(nombre)) {
+                list.remove(item);
+            break;
+            }
+        }
+    }
+
+    public void eliminartodosMedia(MediaType tipo){
+        Iterator <Media> it = list.iterator();
+        while(it.hasNext()) {
+            Media medias = it.next();
+            if(medias.getTipo().equals(tipo)) {
+                it.remove();
+            }
+        }
     }
 }

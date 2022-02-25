@@ -62,4 +62,13 @@ public class Usuario {
         this.password = password;
     }
     
+    public void eliminarUsuario(String email){
+        for (Usuario item : list){
+            item.email.equals(email);
+            if (item.email.equals(email)){
+                list.remove(item);
+            break;
+            }
+        }
+    }
 }
