@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Media {
 
     //Atributos de clase:
@@ -5,24 +7,23 @@ public class Media {
     private Integer id;
     private String nombre;
     private String contenido;
-    private String tipo; //audio video o imagen
-    private String usuario;
+    private MediaType tipo; //audio video o imagen
+    private int usuario;
 
+    public static ArrayList<Media> list = new ArrayList<>();
     private static int idGenerator = 0;
 
-    public Media (Integer id, String nombre, String contenido, String tipo, String usuario){
+    public Media (Integer id, String nombre, String contenido, MediaType tipo, int usuario){
         this.id = idGenerator++;
         this.nombre = nombre;
         this.contenido = contenido;
         this.tipo = tipo;
         this.usuario = usuario;
+        list.add(this);
     }
+    
     public Integer getId() {
         return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
     }
 
     public String getNombre() {
@@ -41,19 +42,19 @@ public class Media {
         this.contenido = contenido;
     }
 
-    public String getTipo() {
+    public MediaType getTipo() {
         return tipo;
     }
 
-    public void setTipo(String tipo) {
+    public void setTipo(MediaType tipo) {
         this.tipo = tipo;
     }
 
-    public String getUsuario() {
+    public int getUsuario() {
         return usuario;
     }
 
-    public void setUsuario(String usuario) {
+    public void setUsuario(int usuario) {
         this.usuario = usuario;
     }
 }

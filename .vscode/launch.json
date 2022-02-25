@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch TestCutreCloud",
+            "request": "launch",
+            "mainClass": "TestCutreCloud",
+            "projectName": "DAWprogramacion-1_634d2902"
+        },
+        {
+            "type": "java",
             "name": "Launch Ejemplo3",
             "request": "launch",
             "mainClass": "Ejemplo3",
