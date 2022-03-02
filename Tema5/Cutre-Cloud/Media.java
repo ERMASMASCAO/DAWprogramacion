@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 import java.util.Iterator;
-
 public class Media {
 
     //Atributos de clase:
@@ -98,5 +97,17 @@ public class Media {
                 it.remove();
             }
         }
+    }
+    public String generateXML(){
+        String resultado = "";
+
+        resultado += "<Media>";
+        resultado += "<nombre>" + this.nombre + "</nombre>";
+        resultado += "<contenido>" + this.contenido + "</contenido>";
+        resultado += "<tipo>"  + this.tipo + "</tipo";
+        resultado += "<usuario"  + this.usuario + "</usuario>";
+        resultado += "</Usuario>";
+
+        return resultado;
     }
 }

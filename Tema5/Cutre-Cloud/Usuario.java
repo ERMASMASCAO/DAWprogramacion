@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-
 public class Usuario {
     
     //Atributos de la clase:
@@ -71,4 +70,18 @@ public class Usuario {
             }
         }
     }
+    public String generateXML(){
+        String resultado = "";
+
+        resultado += "<Usuario>";
+        resultado += "<idGenerator>" + this.idGenerator + "</idGenerator>";
+        resultado += "<email>" + this.email + "</email>";
+        resultado += "<password>" + this.password + "</password>";
+        resultado += "</Usuario";
+
+        return resultado;
+    }
+    
+    // Crea una interfaz que se llame ParserXML dicha interfaz debe tener un metodo que se llame generateXML() debe imprimir por consola el xml de los objetos de dicha clase (<usuario>)
+                                                                                                                                                                            //  <id>
 }
