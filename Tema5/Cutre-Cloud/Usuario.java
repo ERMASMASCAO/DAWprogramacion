@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Iterator;
 public class Usuario {
     
     //Atributos de la clase:
@@ -70,6 +71,19 @@ public class Usuario {
             }
         }
     }
+    public void eliminarTodosLosDominios(String email){
+
+        Iterator<Usuario> it = list.iterator();
+         while (it.hasNext()){
+            Media list = Iterator.next();
+
+            if (list.tipo.equals(type)){
+                Iterator.remove();
+         }
+    }
+}
+
+
     public String generateXML(){
         String resultado = "";
 
@@ -80,8 +94,5 @@ public class Usuario {
         resultado += "</Usuario";
 
         return resultado;
-    }
-    
-    // Crea una interfaz que se llame ParserXML dicha interfaz debe tener un metodo que se llame generateXML() debe imprimir por consola el xml de los objetos de dicha clase (<usuario>)
-                                                                                                                                                                            //  <id>
+    }                                                                                                                                                                            //  <id>
 }
