@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.Iterator;
-public class Media {
+public class Media implements ParserXML{
 
     //Atributos de clase:
 
@@ -29,6 +29,9 @@ public class Media {
             this.nombre = "Nombre duplicado: " + nombre;
         }
         list.add(this);
+    }
+
+    public Media(String string, String string2, String string3, String string4) {
     }
 
     private boolean esNombreDisponible(String nombre){
@@ -98,16 +101,17 @@ public class Media {
             }
         }
     }
-    public String generateXML(){
+    @Override
+    public String generatexml() {
         String resultado = "";
 
-        resultado += "<Media>";
-        resultado += "<nombre>" + this.nombre + "</nombre>";
-        resultado += "<contenido>" + this.contenido + "</contenido>";
-        resultado += "<tipo>"  + this.tipo + "</tipo";
-        resultado += "<usuario"  + this.usuario + "</usuario>";
-        resultado += "</Usuario>";
-
+        resultado += "<Media>\n";
+        resultado += "\t<id>" + this.id + "</id>\n";
+        resultado += "\t<nombre>" + this.nombre + "</nombre>\n";
+        resultado += "\t<contenido>" + this.contenido + "</contenido>\n";
+        resultado += "\t<tipo>"  + this.tipo + "</tipo>\n";
+        resultado += "\t<usuario"  + this.usuario + "</usuario>\n";
+        resultado += "</Media>\n";
         return resultado;
     }
 }

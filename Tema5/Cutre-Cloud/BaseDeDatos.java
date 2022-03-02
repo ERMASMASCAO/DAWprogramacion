@@ -16,13 +16,6 @@ public class BaseDeDatos {
         medias.add(media1);
     }
 
-    //General:
-
-    public interface ParserXML {
-        public void generateXML();
-    }
-
-
 
 
     

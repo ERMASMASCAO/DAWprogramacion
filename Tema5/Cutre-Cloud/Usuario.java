@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.Iterator;
-public class Usuario {
+public class Usuario implements ParserXML{
     
     //Atributos de la clase:
 
@@ -71,7 +71,7 @@ public class Usuario {
             }
         }
     }
-    public void eliminarTodosLosDominios(String email){
+    /*public void eliminarTodosLosDominios(String email){
 
         Iterator<Usuario> it = list.iterator();
          while (it.hasNext()){
@@ -82,17 +82,17 @@ public class Usuario {
          }
     }
 }
-
-
-    public String generateXML(){
+*/
+    @Override
+    public String generatexml() {
         String resultado = "";
 
-        resultado += "<Usuario>";
-        resultado += "<idGenerator>" + this.idGenerator + "</idGenerator>";
-        resultado += "<email>" + this.email + "</email>";
-        resultado += "<password>" + this.password + "</password>";
-        resultado += "</Usuario";
+        resultado += "<usuario>\n";
+        resultado += "\t<id>" + this.id + "</id>\n";
+        resultado += "\t<email>" + this.email + "</email>\n";
+        resultado += "\t<password>" + this.password + "</password>\n";
+        resultado += "</usuario>\n";
 
         return resultado;
-    }                                                                                                                                                                            //  <id>
+    }
 }
