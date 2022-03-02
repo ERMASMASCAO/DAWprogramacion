@@ -90,7 +90,7 @@ public class Media {
     }
 
     public void eliminartodosMedia(MediaType tipo){
-        Iterator <Media> it = list.iterator();
+        Iterator <Media> it = list.iterator();  //it es iterator
         while(it.hasNext()) {
             Media medias = it.next();
             if(medias.getTipo().equals(tipo)) {
