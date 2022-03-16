@@ -1,6 +1,3 @@
 {
-    "java.project.sourcePaths": [
-        "Character/Stat",
-        ""
-    ]
+    "java.project.sourcePaths": []
 }

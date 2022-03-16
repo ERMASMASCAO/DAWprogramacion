@@ -1,3 +1,5 @@
+package Character.Stat;
+
 public abstract class Stat {
     
     //Atribute
