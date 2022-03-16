@@ -1,4 +1,4 @@
-package Race.Humane;
+package Character.Race;
 public class Humane extends Race{
     
 }

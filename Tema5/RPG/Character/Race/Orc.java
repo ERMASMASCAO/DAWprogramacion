@@ -1,4 +1,4 @@
-package Race.Orc;
+package Character.Race;
 public class Orc extends Race{
     
 }
