@@ -1,7 +1,7 @@
 public abstract class Stat {
     
     //Atribute
-    int value = 0;
+    private int value;
 
     //Constructor
 
