@@ -1,10 +1,8 @@
 
 import java.io.ByteArrayInputStream;
-import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.SequenceInputStream;
-import javax.sound.midi.Sequence;
 
 public class Ejemplo3 {
     public static void main(String[] args) throws IOException {

@@ -8,9 +8,10 @@ public class Ejemplo4 {
         int n = f_in.read(buffer);
         while (n != -1) {
             for (int i = 0; i < buffer.length; i++)
-                System.out.println((char) buffer[i]);
+                System.out.print((char) buffer[i]);
             System.out.println("");
             n = f_in.read(buffer);
         }
+        f_in.close();
     }
 }
