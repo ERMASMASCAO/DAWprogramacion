@@ -1,0 +1,5 @@
+Suma = 12
+Resta = 8
+Multiplicacion = 20
+Division = 5
+20

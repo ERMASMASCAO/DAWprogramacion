@@ -51,7 +51,7 @@ public class Persona {
         System.out.println(persona1);
     }
     public String toString(){
-        return super.toString() + "\t\n- Nombre:  " + nombre + "\t\n- Apellidos:  " + apellidos + "\t\n- NIF:  " + nif;
+        return  "\t\n- Nombre:  " + nombre + "\t\n- Apellidos:  " + apellidos + "\t\n- NIF:  " + nif;
     }
 
 }
