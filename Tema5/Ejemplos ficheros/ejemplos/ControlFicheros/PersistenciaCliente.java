@@ -11,7 +11,7 @@ public class PersistenciaCliente {
         FileOutputStream f_out = new FileOutputStream("./CONTROLFICHEROS/Cliente.dat", true);
         f_out.
         
-        c1.getNombre()
+        c1.getNombre();
         f_out.close();
     }
 }
