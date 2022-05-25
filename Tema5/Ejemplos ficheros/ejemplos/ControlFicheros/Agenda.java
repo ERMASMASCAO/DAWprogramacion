@@ -47,7 +47,7 @@ public class Agenda {
        }
        f_sal.close();
        f_ent.close();
-       
+
     public void imprimirListadoObjetos(){
 
     }
