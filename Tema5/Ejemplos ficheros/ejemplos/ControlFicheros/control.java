@@ -1,7 +1,7 @@
 /* 
 
 - Tener un método que pida nombre, apellidos, email y telefono
-por el rerminal y añada estos datos a un fichero "agenda.dat".
+por el terminal y añada estos datos a un fichero "agenda.dat".
 
 - El formato del fichero será:
 
