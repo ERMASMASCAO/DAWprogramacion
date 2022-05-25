@@ -10,6 +10,7 @@ import java.io.FileOutputStream;
 import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.FileReader;
+import java.io.OutputStreamWriter;
 public class Agenda {
     
     public void pedirUsuarios(){
@@ -37,9 +38,16 @@ public class Agenda {
 
     
     public void imprimirListadoTexto(){
+       BuffeedReader f_ent= new BuffeedReader (new FileReader("agenda.dat"));
+       PrintWriter f_sal = new PrintWriter (new OutputStreamWriter(new FileOutputStream("agenda2.dat"), "ISO-8859-1"));
+       String cad = f_ent.readLine();
+       while (cad != null){
+           f_sal.println(cad);
+           cad= f_ent.readLine();
+       }
+       f_sal.close();
+       f_ent.close();
        
-       
-
     public void imprimirListadoObjetos(){
 
     }
