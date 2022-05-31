@@ -36,7 +36,7 @@ public class Agenda {
             
     }
 
-    
+
     public void imprimirListadoTexto(){
        BuffeedReader f_ent= new BuffeedReader (new FileReader("agenda.dat"));
        PrintWriter f_sal = new PrintWriter (new OutputStreamWriter(new FileOutputStream("agenda2.dat"), "ISO-8859-1"));
