@@ -28,6 +28,11 @@ public class Agenda {
             }
             
     }
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> c0cc517069770d4c9691ec705ee5f73cbd394220
     public void imprimirListadoTexto(){
         try {
         BufferedReader f_ent= new BufferedReader (new FileReader("agenda.dat"));  
