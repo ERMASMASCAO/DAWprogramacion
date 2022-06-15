@@ -5,5 +5,6 @@ public class testControl {
        Agenda agenda = new Agenda();
        agenda.pedirUsuarios();
        agenda.imprimirListadoTexto();
+       agenda.imprimirListadoTexto();
     }
 }

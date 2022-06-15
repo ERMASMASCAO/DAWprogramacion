@@ -1,13 +1,13 @@
 /* 
 
 - Tener un método que pida nombre, apellidos, email y telefono
-por el terminal y añada estos datos a un fichero "agenda.dat".
+por el terminal y añada estos datos a un fichero "agenda.dat". hecho
 
-- El formato del fichero será:
+- El formato del fichero será: hecho
 
-> Nombre apellidos email telefono
+> Nombre apellidos email telefono 
 
-Todo ello separado por tabuladores.
+Todo ello separado por tabuladores. hecho
 
 - De forma paralela se debe guardar un objeto con los atributos 
 en un fichero "agendaObjetos.dat"
@@ -15,7 +15,7 @@ en un fichero "agendaObjetos.dat"
 - Cada vez que pedimos datos nuevos se deben añadir al final del
 fichero. No se debe borrar en cada ejecución.
 
-- Crear un método que muestre un listado utilizando "agenda.dat"
+- Crear un método que muestre un listado utilizando "agenda.dat" hecho
 
 - Crear un método que muestre un listado utilizando "agendaObjetos.dat"
 

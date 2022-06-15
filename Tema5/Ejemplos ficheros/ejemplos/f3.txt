@@ -1,3 +1,2 @@
 Hola. Esto es un texto más largo, para ver cómo se gestionan los bytes con un buffer de 30 caracteres.
-
 Como que lo leemos como texto, los caracteres especiales puede que no salgan bien.
