@@ -5,13 +5,13 @@ public class Cliente extends Persona{
     private int id;
     private String email;
 
-    private static int idGenerator = 0;
+    private static int GenerarID = 0;
 
     public static ArrayList<Cliente> list = new ArrayList<>();
 
     public Cliente(String nombre, String nif, String apellidos, String email) {
         super(nif, nombre, apellidos);
-        this.id = idGenerator++;
+        this.id = GenerarID++;
         this.email = email;
         list.add(this);
     }
