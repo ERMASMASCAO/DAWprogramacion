@@ -13,6 +13,6 @@ public class TestPersistenciaCliente {
         
         PersistenciaCliente persistencia = new PersistenciaCliente();
         persistencia.write(clientes);
-        clientes = persistencia.read();
+        clientes = persistencia.read("clientes.dat");
     }
 }
