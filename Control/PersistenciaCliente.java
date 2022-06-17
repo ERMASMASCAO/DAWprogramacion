@@ -25,7 +25,7 @@ public class PersistenciaCliente {
                 escribir.write(linea);
             }
             escribir.close();
-        } catch (IOException e) {
+        } catch(IOException e) {
             e.printStackTrace();
         }
     }
