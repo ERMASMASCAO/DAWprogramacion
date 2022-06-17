@@ -1,0 +1,15 @@
+Ejercicio 1 Crea una aplicacion con las siguientes caracteristicas:
+
+Una clase Persona con los atributos:  nif, nombre y apellidos. 
+Estos atributos deben ser accesibles para las clases hijas y no para el resto. El acceso se hace a traves de getters y setters.
+
+Una clase Cliente que hereda de Persona con los atributos: id, nif, nombre, apellidos y email. 
+Dichos atributos no pueden ser accedidos de fuera de la clase. Dicho acceso se hara mediante los getters y setters.
+
+Sobrescribe el metodo toString para mostrar los atributos de forma tabular.
+
+Ejercicio 2 Crea una clase PersisteciaCliente 
+Con un metodo write que recibe un arraylist de clientes de tal forma que escribe en un fichero(clientes.dat) todos los clientes recibidos en el arraylist.
+
+Cada cliente se escribe en una linia con los atributos separados por comas.
+Un metodo read que recibe como parametro el nombre del fichero a leer y devuelve un arraylist con los clientes que ha conseguido leer

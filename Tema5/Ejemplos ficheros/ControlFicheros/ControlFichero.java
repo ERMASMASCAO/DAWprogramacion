@@ -20,7 +20,6 @@ public class controlFicheros {
     public static void main(String[] args) {
         List<Cliente> listado = new ArrayList<>();
 
-        System.out.println("\n=====================\n CLIENTES: \n=====================\n");
         Cliente cliente1 = new Cliente("Carmen", "pepa ", "65498496p", "carmen@gmail.com");
         System.out.println(cliente1);
 
