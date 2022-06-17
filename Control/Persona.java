@@ -33,10 +33,10 @@ public class Persona {
         this.apellidos = apellidos;
     }
 
-    public void imprimir(){
-        System.out.println("Nif:" + "/n" + nif);
-        System.out.println("Nombre:" + "/n" + nombre);
-        System.out.println("Apellidos:" + "/n" + apellidos);
+    public void imprimirDatos(){
+        System.out.println("Nif:"+"/n"+ nif);
+        System.out.println("Nombre:"+"/n"+ nombre);
+        System.out.println("Apellidos:"+"/n"+ apellidos);
     }
 
     

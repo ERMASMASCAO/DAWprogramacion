@@ -33,7 +33,7 @@ public class Cliente extends Persona{
     }
 
     public void imprimir(){
-        super.imprimir();
+        super.imprimirDatos();
         System.out.println("Id:" + "/n" + id);
         System.out.println("Email:" + "/n" + email);
     }
